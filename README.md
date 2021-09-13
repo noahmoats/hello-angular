@@ -7,7 +7,6 @@ app.get('/user', function (req, res) {
     res.sendFile('/user.json', { root: __dirname });
 
 });
-The main page, angular.html, creates a controller to get the data with this javascript code:
 
 app.controller('MainController', function ($scope, $http) {
             $scope.user = null;
