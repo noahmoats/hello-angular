@@ -20,3 +20,5 @@ app.controller('MainController', function ($scope, $http) {
 
         });
 doing this will then display the 'name' with <h3 id="user-greeting">and hi there, {{ user.name }}</h3>. An input box is created with the line <input ng-model="user.name"> and updates the 'name' live on the page without a refresh of the page. However, the data is not updated and saved in user.json, so anything new put in the box is gone when the page is refreshed.
+
+# Link to app on heroku https://hello-angularr.herokuapp.com/
